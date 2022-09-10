@@ -70,6 +70,28 @@
         button a:hover {
             color: whitesmoke;
         }  
+
+        .jumbotron__container{
+            width: 85%;
+            background-color: #00308F;
+            margin: 0 auto;
+            border-radius: 3px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 60px 100px;
+            color: whitesmoke;
+        }
+
+        .jumbotron__container button.get__started{
+            background-color: whitesmoke !important;
+            color: #00308F !important;
+            padding: 25px 30px !important;
+            font-size: 16px !important;
+        }
+
+        .jumbotron__container h1{
+            font-size: 60px;
+        }
     </style>
   </head>
   <body>
@@ -95,8 +117,11 @@
         </div>
     </div>
 
-    {% block content %}
-    {% endblock  %}
+ 
+        {% block content %}
+        {% endblock  %}
+
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 

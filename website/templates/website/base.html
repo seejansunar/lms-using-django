@@ -89,11 +89,14 @@
         </div>
         <div class="left__navigations">
             <ul>
-                <li><a href="">Login</a></li>
-                <li><button><a href="">Register</a></button></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><button><a href="{% url 'register' %}">Register</a></button></li>
             </ul>
         </div>
     </div>
+
+    {% block content %}
+    {% endblock  %}
 
     <!-- Optional JavaScript; choose one of the two! -->
 

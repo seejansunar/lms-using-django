@@ -1,0 +1,23 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <div class="subscription__container">
+        <div class="subscription__form__container">
+            <h1>Stay Updated!</h1>
+            <p>Subscribe to get notifications about the courses.</p>
+            <form>
+                <div class="input__container">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="input__container">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input__container">
+                    <button class="get__started">Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="subscription__details__container"></div>
+    </div>
+{% endblock %}

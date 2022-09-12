@@ -16,3 +16,6 @@ def login(request):
 
 def register(request):
     return render(request, 'website/register.html')
+
+def subscribe(request):
+    return render(request, 'website/subscribe.html')

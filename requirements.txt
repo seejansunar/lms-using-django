@@ -4,7 +4,7 @@ argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asgiref==3.5.2
 asn1crypto==1.5.1
-asttokens==2.0.5
+asttokens==2.2.1
 attrs==21.4.0
 Babel==2.10.3
 backcall==0.2.0
